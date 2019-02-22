@@ -29,7 +29,7 @@ until ($oidFound) {
 
 @descArray = split("\"", $descString);
 $unitdesc = @descArray[-1];
-
+# prueba ARRAY
 @descArray = split(",", $unitdesc);
 $unitdesc = @descArray[0];
 
